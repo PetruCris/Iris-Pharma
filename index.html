@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Iris Pharma | Naturist Pharmacy</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f0fdf4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 1.5em 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #1b5e20;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #66bb6a;
+      color: #000;
+    }
+
+    section {
+      padding: 2em;
+    }
+
+    .products table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    .products th, .products td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .products th {
+      background-color: #a5d6a7;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form button {
+      background-color: #388e3c;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #66bb6a;
+      color: #000;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: relative;
+      margin-top: 2em;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        text-align: center;
+        padding: 0.75em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Iris Pharma</h1>
+    <p>Natural Remedies for Better Living</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Iris Pharma</h2>
+    <p>Iris Pharma is a naturist pharmacy committed to providing natural and herbal remedies that support your health and well-being. We blend traditional knowledge with modern science to bring you trusted solutions for a healthier life.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Founded with a passion for holistic wellness, Iris Pharma specializes in plant-based medications and organic supplements. We source the finest natural ingredients and emphasize sustainability, education, and personal care.</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <p>Here are a few examples from our inventory:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Category</th>
+          <th>Price</th>
+          <th>In Stock</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Chamomile Tea</td>
+          <td>Relaxation</td>
+          <td>$5.00</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Echinacea Drops</td>
+          <td>Immune Support</td>
+          <td>$12.50</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Lavender Balm</td>
+          <td>Topical Relief</td>
+          <td>$8.99</td>
+          <td>No</td>
+        </tr>
+          <tr>
+          <td>Ginger Capsules</td>
+          <td>Digestive Aid</td>
+          <td>$9.50</td>
+          <td>Yes</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <form action="#" method="post">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Iris Pharma. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+S
