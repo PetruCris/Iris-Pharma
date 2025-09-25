@@ -2,7 +2,7 @@ For this mini-project, I had to plan the design and development of a multi-page 
 
 To make this website function properly please make sure you have XAMPP installed with ADMIN and MYSql actions started.
 
-After that ensure that all the downloaded files are copied in a folder named iripharma, within your htdocs folder( found in the XAMPP original installed folder).
+After that ensure that all the downloaded files are copied in a folder named irispharma, within your htdocs folder( found in the XAMPP original installed folder).
 
 Also please note that all images must be in their own folder called images within the irispharma folder. They must be named accordingly otherwise the website will not work as it should, unless you change the code to match your naming situation :D. 
 
